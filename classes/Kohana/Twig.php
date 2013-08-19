@@ -70,7 +70,7 @@ class Kohana_Twig extends View {
 	 *
 	 * @return  Twig_Environment  Twig environment
 	 */
-	public static function environment()
+	protected static function environment()
 	{
 		if (static::$_environment === NULL)
 		{
